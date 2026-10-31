@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080a09">
+  <meta name="description" content="Explore forgotten corners of the internet with open-source AI.">
+  <title>LOST.INTERNET — Digital Archaeology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanlines"></div>
+  <header class="navbar">
+    <a class="brand" href="#"><span>◈</span> LOST<span class="green">.</span>INTERNET</a>
+    <nav><a href="#discover">DISCOVER</a><a href="#archive">THE ARCHIVE</a><a href="#about">ABOUT</a></nav>
+    <div class="status"><i></i><span id="systemStatus">SYSTEM ONLINE</span></div>
+  </header>
+
+  <main>
+    <section class="hero" id="discover">
+      <div class="eyebrow"><span class="green">●</span> DIGITAL ARCHAEOLOGY PROJECT / EST. 2026</div>
+      <div class="hero-copy">
+        <h1>THE INTERNET<br>NEVER <span class="outline">FORGETS.</span></h1>
+        <p>Somewhere in the digital void, forgotten worlds are waiting to be rediscovered. Explore lost websites, abandoned technologies and memories of the early web.</p>
+      </div>
+      <form class="search" id="searchForm">
+        <span class="search-symbol">⌕</span>
+        <input id="searchInput" type="search" placeholder="Describe something you want to rediscover..." autocomplete="off">
+        <button id="searchBtn" type="submit">EXPLORE ↗</button>
+      </form>
+      <div class="hint">TRY: "websites that existed before social media"</div>
+      <div class="hero-meta"><span>01 / EXPLORE THE UNKNOWN</span><span>POWERED BY OPEN-SOURCE AI</span></div>
+      <div class="orb orb-one"></div><div class="orb orb-two"></div>
+    </section>
+
+    <section class="archive" id="archive">
+      <div class="section-head">
+        <div><div class="eyebrow">THE DIGITAL GRAVEYARD / 001</div><h2>Lost <span class="green">Archives.</span></h2></div>
+        <div class="count" id="archiveCount">06 DISCOVERIES</div>
+      </div>
+      <div class="filters" id="filters">
+        <button class="filter active" data-filter="all">ALL</button>
+        <button class="filter" data-filter="websites">WEBSITES</button>
+        <button class="filter" data-filter="technology">TECHNOLOGY</button>
+        <button class="filter" data-filter="culture">INTERNET CULTURE</button>
+      </div>
+      <div class="results-line" id="resultsInfo" aria-live="polite">SHOWING THE REMAINS OF THE OLD INTERNET</div>
+      <div class="grid" id="archiveGrid"></div>
+      <p class="source-note">Historical summaries are curated for discovery. External links open reference pages; this prototype does not host recovered copies of archived sites.</p>
+    </section>
+
+    <section class="about" id="about">
+      <div class="eyebrow">WHY WE EXIST / 003</div>
+      <h2>Some things deserve<br>to be <span class="green">remembered.</span></h2>
+      <p>The internet evolves. Websites disappear. Communities vanish. But digital history shouldn't disappear with them. LOST.INTERNET uses open-source AI to make forgotten internet history easier to discover.</p>
+      <div class="about-stats"><div><strong>OPEN</strong><span>OPEN-SOURCE MODEL</span></div><div><strong>LOCAL</strong><span>IN-BROWSER INFERENCE</span></div><div><strong>6+</strong><span>SEED DISCOVERIES</span></div></div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#"><span>◈</span> LOST<span class="green">.</span>INTERNET</a><span>AN OPEN-SOURCE DIGITAL ARCHAEOLOGY EXPERIMENT</span><span>GHOST IN THE MACHINE · 2026</span></footer>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
