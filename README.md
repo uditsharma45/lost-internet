@@ -1,4 +1,4 @@
-# LOST.INTERNET 👻
+# LOST.INTERNET 
 
 **The Internet Never Forgets.**
 
